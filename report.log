@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.8.18)  14 OCT 2017 13:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016/Debian) (preloaded format=pdflatex 2017.8.18)  14 OCT 2017 13:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -947,54 +947,63 @@ File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 61.
-
-/home/shubham/PP-report/report.tex:62: Extra }, or forgotten \endgroup.
-l.62       }}
-             
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-[2
+ [2
 
 ]
-/home/shubham/PP-report/report.tex:64: Extra }, or forgotten \endgroup.
-l.64       }}
-             
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+/home/shubham/PP-report/report.tex:71: Missing } inserted.
+<inserted text> 
+                }
+l.71     \end{itemize}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-/home/shubham/PP-report/report.tex:66: Extra }, or forgotten \endgroup.
-l.66       }}
-             
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+/home/shubham/PP-report/report.tex:71: Missing } inserted.
+<inserted text> 
+                }
+l.71     \end{itemize}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-/home/shubham/PP-report/report.tex:68: Extra }, or forgotten \endgroup.
-l.68       }}
-             
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+/home/shubham/PP-report/report.tex:71: Missing } inserted.
+<inserted text> 
+                }
+l.71     \end{itemize}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
-/home/shubham/PP-report/report.tex:70: Extra }, or forgotten \endgroup.
-l.70       }}
-             
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
+/home/shubham/PP-report/report.tex:71: Missing } inserted.
+<inserted text> 
+                }
+l.71     \end{itemize}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+/home/shubham/PP-report/report.tex:71: Missing } inserted.
+<inserted text> 
+                }
+l.71     \end{itemize}
+                      
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 [3] [4]
 Chapter 2.
