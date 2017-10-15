@@ -1,4 +1,4 @@
 # PP-Report-Latex
 
 
-For Better Formating
+For better formatting

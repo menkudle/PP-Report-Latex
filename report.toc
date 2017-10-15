@@ -4,30 +4,31 @@
 \contentsline {section}{\numberline {1.2}Need of the project}{2}
 \contentsline {section}{\numberline {1.3}Problem Statement}{2}
 \contentsline {section}{\numberline {1.4}Objectives}{2}
-\contentsline {section}{\numberline {1.5}Solution Approach}{2}
-\contentsline {section}{\numberline {1.6}Organisation of the Project Report}{2}
-\contentsline {chapter}{\numberline {2}Background}{3}
-\contentsline {section}{\numberline {2.1}Area,available tools and hardware and software}{3}
-\contentsline {section}{\numberline {2.2}Literature review}{3}
-\contentsline {subsection}{\numberline {2.2.1}Area,available tools and hardware and software}{3}
-\contentsline {subsection}{\numberline {2.2.2}Literature review}{3}
-\contentsline {chapter}{\numberline {3}Analysis}{5}
-\contentsline {section}{\numberline {3.1}Detailed Problem statement}{5}
-\contentsline {section}{\numberline {3.2}Requirement Analysis}{5}
-\contentsline {subsection}{\numberline {3.2.1}Functional Requirement}{5}
-\contentsline {subsection}{\numberline {3.2.2}Non-Functional Requirement}{5}
-\contentsline {section}{\numberline {3.3}Feasibility Study}{5}
-\contentsline {section}{\numberline {3.4}Diagram (as per our project problem)}{5}
-\contentsline {chapter}{\numberline {4}Architectural Diagrams}{7}
-\contentsline {section}{\numberline {4.1}Architectural Diagram. Discussion of moules}{7}
-\contentsline {section}{\numberline {4.2}Algorithm Designed}{7}
-\contentsline {section}{\numberline {4.3}Diagrams}{7}
-\contentsline {chapter}{\numberline {5}Conclusion}{8}
-\contentsline {section}{\numberline {5.1}Work carried out in phase 1}{8}
-\contentsline {section}{\numberline {5.2}Work to be carried out in phase 2}{8}
-\contentsline {chapter}{\numberline {6}Sample items}{9}
-\contentsline {section}{\numberline {6.1}Some LaTeX tips}{9}
-\contentsline {subsection}{\numberline {6.1.1}How to Include Figures}{9}
-\contentsline {subsection}{\numberline {6.1.2}How to Make Tables}{9}
-\contentsline {subsection}{\numberline {6.1.3}How to Make Sections and Subsections}{9}
-\contentsline {subsection}{\numberline {6.1.4}How to Make Lists}{9}
+\contentsline {section}{\numberline {1.5}Solution Approach}{3}
+\contentsline {section}{\numberline {1.6}Organisation of the Project Report}{3}
+\contentsline {chapter}{\numberline {2}Background}{5}
+\contentsline {section}{\numberline {2.1}Area,available tools and hardware and software}{5}
+\contentsline {subsection}{\numberline {2.1.1}Area Backend as a service(BaaS)}{5}
+\contentsline {subsection}{\numberline {2.1.2}Analytics as a Service}{5}
+\contentsline {subsection}{\numberline {2.1.3}Available Tools}{5}
+\contentsline {subsection}{\numberline {2.1.4}Hardware tools}{5}
+\contentsline {subsection}{\numberline {2.1.5}Software tools}{5}
+\contentsline {section}{\numberline {2.2}Literature review}{6}
+\contentsline {subsection}{\numberline {2.2.1}Backend as a Service (BaaS)}{6}
+\contentsline {subsubsection}{Pros :}{6}
+\contentsline {subsubsection}{Cons :}{6}
+\contentsline {subsection}{\numberline {2.2.2}Analytics as a service}{6}
+\contentsline {subsubsection}{Pros}{6}
+\contentsline {subsubsection}{Cons}{6}
+\contentsline {chapter}{\numberline {3}Analysis}{7}
+\contentsline {section}{\numberline {3.1}Detailed Problem statement}{7}
+\contentsline {section}{\numberline {3.2}Requirement Analysis}{7}
+\contentsline {subsection}{\numberline {3.2.1}Functional Requirement}{7}
+\contentsline {subsection}{\numberline {3.2.2}Non-Functional Requirement}{9}
+\contentsline {section}{\numberline {3.3}Feasibility Study}{9}
+\contentsline {chapter}{\numberline {4}Architectural Diagrams}{10}
+\contentsline {section}{\numberline {4.1}Architectural Diagram}{10}
+\contentsline {section}{\numberline {4.2}Diagrams}{11}
+\contentsline {chapter}{\numberline {5}Conclusion}{13}
+\contentsline {section}{\numberline {5.1}Work carried out in phase 1}{13}
+\contentsline {section}{\numberline {5.2}Work to be carried out in phase 2}{13}
