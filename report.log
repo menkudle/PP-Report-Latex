@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  14 OCT 2017 16:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  15 OCT 2017 21:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -9,8 +9,8 @@ LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
 Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -899,12 +899,12 @@ ABD: EveryShipout initializing macros
 * \topmargin=-37.0pt
 * \headheight=12.0pt
 * \headsep=25.0pt
-* \topskip=10.0pt
+* \topskip=12.0pt
 * \footskip=30.0pt
-* \marginparwidth=57.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=35.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -921,8 +921,12 @@ Package pdftex.def Info: logo.jpg used on input line 43.
 (pdftex.def)             Requested size: 200.7495pt x 197.73827pt.
  [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.jpg>] (./report.toc
-)
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./logo.jpg>]
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <18> not available
+(Font)              size <17.28> substituted on input line 67.
+
+(./report.toc)
 \tf@toc=\write4
 \openout4 = `report.toc'.
 
@@ -931,6 +935,16 @@ Package pdftex.def Info: logo.jpg used on input line 43.
 ]
 Chapter 1.
 
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <18> not available
+(Font)              size <17.28> substituted on input line 70.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/bx/n' in size <16> not available
+(Font)              size <17.28> substituted on input line 71.
+
+[2
+
+]
 Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
@@ -939,12 +953,14 @@ LaTeX Font Info:    Try loading font information for OMS+cmr on input line 90.
 (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 90.
- [2
-
-] [3] [4]
+ [3] [4]
 Chapter 2.
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/it' in size <16> not available
+(Font)              size <17.28> substituted on input line 124.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 125--129
 
@@ -962,31 +978,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
 
-[6]
+[6] [7]
 Chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 192--205
 
  []
 
-[7
+[8
 
-] [8] [9]
+] [9] [10] [11]
 Chapter 4.
-<Deployment.png, id=50, 1053.9375pt x 387.4475pt>
+<Deployment.png, id=53, 1053.9375pt x 387.4475pt>
 File: Deployment.png Graphic file (type png)
  <use Deployment.png>
 Package pdftex.def Info: Deployment.png used on input line 326.
 (pdftex.def)             Requested size: 438.51411pt x 161.20746pt.
- [10
+ [12
 
- <./Deployment.png>] <usecase.png, id=56, 1035.87pt x 712.6625pt>
+ <./Deployment.png>] <usecase.png, id=60, 1035.87pt x 712.6625pt>
 File: usecase.png Graphic file (type png)
  <use usecase.png>
 Package pdftex.def Info: usecase.png used on input line 333.
 (pdftex.def)             Requested size: 438.51411pt x 301.6977pt.
 
-<ER.jpg, id=57, 1535.7375pt x 958.58125pt>
+<ER.jpg, id=61, 1535.7375pt x 958.58125pt>
 File: ER.jpg Graphic file (type jpg)
  <use ER.jpg>
 Package pdftex.def Info: ER.jpg used on input line 338.
@@ -995,83 +1011,72 @@ Package pdftex.def Info: ER.jpg used on input line 338.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[11 <./usecase.png>] [12 <./ER.jpg>]
+[13 <./usecase.png>] [14 <./ER.jpg>]
 Chapter 5.
-[13
+[15
 
 ]
+Underfull \hbox (badness 4479) in paragraph at lines 367--369
+[]\OT1/cmr/m/it/12 Overview Of Back-end as a Ser-vice (BaaS) White Pa-per\OT1/c
+mr/m/n/12 . Avail-able at
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 367--369
-[]\OT1/cmr/m/it/10 Overview Of Back-end as a Ser-vice (BaaS) White Pa-per\OT1/c
-mr/m/n/10 . Avail-able at
+\OT1/cmr/m/n/12 http://baas.apievangelist.com/2013/05/08/overview-of-backend-as
+-a-service-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 377--379
-[]\OT1/cmr/m/n/10 Backend as a Ser-vice (BaaS) Mar-ket Global fore-cast for 202
-0, Avail-able at
- []
-
-
-Underfull \hbox (badness 1424) in paragraph at lines 381--384
-[]\OT1/cmr/m/n/10 Backendless web-site 2016, \OT1/cmr/m/it/10 Database Back-end
- as a Ser-vice: Au-to-matic Gen-er-a-tion, De-
- []
-
-
-Underfull \hbox (badness 1400) in paragraph at lines 381--384
-\OT1/cmr/m/it/10 ploy-ment, and Man-age-ment of Database Back-ends for Mo-bile 
-Ap-pli-ca-tions\OT1/cmr/m/n/10 . Avail-able at
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 387--390
-[]\OT1/cmr/m/n/10 Ryan Goodrich, \OT1/cmr/m/it/10 What is BaaS (Back-end as a S
-er-vice)\OT1/cmr/m/n/10 . Avail-able at
+Underfull \hbox (badness 5316) in paragraph at lines 387--390
+[]\OT1/cmr/m/n/12 Ryan Goodrich, \OT1/cmr/m/it/12 What is BaaS (Back-end as a S
+er-vice)\OT1/cmr/m/n/12 . Avail-able at
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 392--396
-[]\OT1/cmr/m/n/10 Nguyen, T, 2016, \OT1/cmr/m/it/10 Mo-bile Back-end as a Ser-v
+[]\OT1/cmr/m/n/12 Nguyen, T, 2016, \OT1/cmr/m/it/12 Mo-bile Back-end as a Ser-v
 ice: The Pros
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 392--396
-\OT1/cmr/m/it/10 and Cons of Parse Case com-pany: Su-per-App Oy\OT1/cmr/m/n/10 
+\OT1/cmr/m/it/12 and Cons of Parse Case com-pany: Su-per-App Oy\OT1/cmr/m/n/12 
 . Avail-able at
  []
 
-[14
+[16
 
 ] (./report.aux)
+
+LaTeX Font Warning: Size substitutions with differences
+(Font)              up to 1.28pt have occurred.
+
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13848 strings out of 493029
- 266145 string characters out of 6136234
- 323242 words of memory out of 5000000
- 17089 multiletter control sequences out of 15000+600000
- 11712 words of font info for 41 fonts, out of 8000000 for 9000
+ 13854 strings out of 493029
+ 266238 string characters out of 6136234
+ 322282 words of memory out of 5000000
+ 17095 multiletter control sequences out of 15000+600000
+ 12591 words of font info for 44 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  62i,8n,56p,936b,295s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/share/te
-xlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/c
-mti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.
-pfb>
-Output written on report.pdf (15 pages, 717842 bytes).
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
+are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/t
+exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmti12.pfb>
+Output written on report.pdf (17 pages, 678595 bytes).
 PDF statistics:
- 111 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
+ 105 PDF objects out of 1000 (max. 8388607)
+ 70 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
