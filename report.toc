@@ -1,34 +1,34 @@
 \select@language {english}
-\contentsline {chapter}{\numberline {1}Introduction}{2}
-\contentsline {section}{\numberline {1.1}Preamble}{2}
-\contentsline {section}{\numberline {1.2}Need of the project}{2}
-\contentsline {section}{\numberline {1.3}Problem Statement}{3}
-\contentsline {section}{\numberline {1.4}Objectives}{3}
-\contentsline {section}{\numberline {1.5}Solution Approach}{4}
-\contentsline {section}{\numberline {1.6}Organization of the Project Report}{4}
-\contentsline {chapter}{\numberline {2}Background}{5}
-\contentsline {section}{\numberline {2.1}Area}{5}
-\contentsline {subsection}{\numberline {2.1.1}Backend as a service(BaaS)}{5}
-\contentsline {subsection}{\numberline {2.1.2}Analytics as a Service}{5}
-\contentsline {subsection}{\numberline {2.1.3}Available Tools}{5}
-\contentsline {subsection}{\numberline {2.1.4}Hardware tools}{6}
-\contentsline {subsection}{\numberline {2.1.5}Software tools}{6}
-\contentsline {section}{\numberline {2.2}Literature review}{6}
-\contentsline {subsection}{\numberline {2.2.1}Backend as a Service (BaaS)}{6}
-\contentsline {subsubsection}{Pros :}{6}
-\contentsline {subsubsection}{Cons :}{6}
-\contentsline {subsection}{\numberline {2.2.2}Analytics as a service}{7}
-\contentsline {subsubsection}{Pros}{7}
-\contentsline {subsubsection}{Cons}{7}
-\contentsline {chapter}{\numberline {3}Analysis}{8}
-\contentsline {section}{\numberline {3.1}Detailed Problem statement}{8}
-\contentsline {section}{\numberline {3.2}Requirement Analysis}{9}
-\contentsline {subsection}{\numberline {3.2.1}Functional Requirement}{9}
-\contentsline {subsection}{\numberline {3.2.2}Non-Functional Requirement}{11}
-\contentsline {section}{\numberline {3.3}Feasibility Study}{11}
-\contentsline {chapter}{\numberline {4}Design}{12}
-\contentsline {section}{\numberline {4.1}Architectural Diagram}{12}
+\contentsline {chapter}{\numberline {1}Introduction}{3}
+\contentsline {section}{\numberline {1.1}Preamble}{3}
+\contentsline {section}{\numberline {1.2}Need of the project}{3}
+\contentsline {section}{\numberline {1.3}Problem Statement}{4}
+\contentsline {section}{\numberline {1.4}Objectives}{4}
+\contentsline {section}{\numberline {1.5}Solution Approach}{5}
+\contentsline {section}{\numberline {1.6}Organization of the Project Report}{5}
+\contentsline {chapter}{\numberline {2}Background}{6}
+\contentsline {section}{\numberline {2.1}Area}{6}
+\contentsline {subsection}{\numberline {2.1.1}Backend as a service(BaaS)}{6}
+\contentsline {subsection}{\numberline {2.1.2}Analytics as a Service}{6}
+\contentsline {subsection}{\numberline {2.1.3}Available Tools}{6}
+\contentsline {subsection}{\numberline {2.1.4}Hardware tools}{7}
+\contentsline {subsection}{\numberline {2.1.5}Software tools}{7}
+\contentsline {section}{\numberline {2.2}Literature review}{7}
+\contentsline {subsection}{\numberline {2.2.1}Backend as a Service (BaaS)}{7}
+\contentsline {subsubsection}{Pros :}{7}
+\contentsline {subsubsection}{Cons :}{7}
+\contentsline {subsection}{\numberline {2.2.2}Analytics as a service}{8}
+\contentsline {subsubsection}{Pros}{8}
+\contentsline {subsubsection}{Cons}{8}
+\contentsline {chapter}{\numberline {3}Analysis}{9}
+\contentsline {section}{\numberline {3.1}Detailed Problem statement}{9}
+\contentsline {section}{\numberline {3.2}Requirement Analysis}{10}
+\contentsline {subsection}{\numberline {3.2.1}Functional Requirement}{10}
+\contentsline {subsection}{\numberline {3.2.2}Non-Functional Requirement}{12}
+\contentsline {section}{\numberline {3.3}Feasibility Study}{12}
+\contentsline {chapter}{\numberline {4}Design}{13}
+\contentsline {section}{\numberline {4.1}Preface}{13}
 \contentsline {section}{\numberline {4.2}Diagrams}{13}
-\contentsline {chapter}{\numberline {5}Conclusion}{15}
-\contentsline {section}{\numberline {5.1}Work carried out in phase 1}{15}
-\contentsline {section}{\numberline {5.2}Work to be carried out in phase 2}{15}
+\contentsline {chapter}{\numberline {5}Conclusion}{16}
+\contentsline {section}{\numberline {5.1}Work carried out in phase 1}{16}
+\contentsline {section}{\numberline {5.2}Work to be carried out in phase 2}{16}
