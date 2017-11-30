@@ -3,7 +3,7 @@
     \usepackage[english]{babel}
     \usepackage[utf8]{inputenc}
     \usepackage{amsmath}
-    \usepackage{graphicx}
+    \usepackage{graphicx}    
     \usepackage[colorinlistoftodos]{todonotes}
 
 
@@ -17,17 +17,30 @@
     \subsectionfont{\normalfont \itshape \fontsize{12}{1.5}\selectfont}
     \subsubsectionfont{\normalfont \itshape \fontsize{12}{1.5}\selectfont}
     \paragraphfont{\fontsize{12}{1.5}\selectfont}
-    \chapterfont{\fontsize{14}{1.5}\selectfont}
+    \chapterfont{\centering\fontsize{14}{1.5}\selectfont}    
+    
+    
+    % \usepackage{titlesec}
+    % \newcommand*{\justifyheading}{\center}
+    % \titleformat{\chapter}[display]
+    % {\normalfont\huge\bfseries\justifyheading}{\chaptertitlename\ \thechapter}
+    % {20pt}{\Huge}
 
-		
-    \title{Backend and Analytics as a service}
+    % Parameters for 1.5 line spacing and paragraph space
+    % \setlength{\parindent}{0em}
+    % \setlength{\parskip}{1em}
+    \renewcommand{\baselinestretch}{1.5}
+         
     
-    \author{Aditya, Shubham, Srajan, Abhishek, Suryansh}
-    
+		% Author Info
+    \title{Backend and Analytics as a service}    
+    \author{Aditya, Shubham, Srajan, Abhishek, Suryansh}    
     \date{14 Oct, 2017}
     
-    \begin{document}
-    
+
+
+    \begin{document}    
+    \pagenumbering{roman}
     \begin{titlepage}
       \newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
       \center
@@ -37,7 +50,7 @@
       \HRule \\[0.4cm]
       { \huge \bfseries Backend and Analytics as a Service}\\[0.4cm] % Title of your document
       \HRule \\[1.5cm]
-      \includegraphics{logo.jpg}\\[5cm] % Include a department/university logo - this will require the graphicx package    
+      \includegraphics{images/logo.jpg}\\[5cm] % Include a department/university logo - this will require the graphicx package    
       \begin{minipage}{0.4\textwidth}
       \begin{flushleft} \large
       \textbf{\emph{Guided By:}}\\
@@ -51,24 +64,23 @@
       Suryansh Soni (0801CS141086)\\
       Abhishek Verma (0801EC141002)\\
       Shubham Menkudle (0801CS141078)\\
-      Aditya Vashishtha (0801EE141005)\\
-      
-      
-         
+      Aditya Vashishtha (0801EE141005)\\                     
       \end{flushright}
       \end{minipage}\\[2cm]            
       \vfill       
     \end{titlepage}    
     
-    \begin{abstract}
-    	Using an automated development tool for backend generation is a cost saving, affordable and swift approach for effortlessly creating cross platfom applications. Backend as a Service (BaaS) is the term used for providing web and mobile app developers with a way to connect their applications to backend cloud storage and processing while also providing common features such as user management, push notifications, social networking integration, and other features that mobile users demand from their apps these days. The developers can use such tools for effective backend creation and providing an integrated analytics for businesses along with these tools is the next step.
-    	
-    	 
+    \begin{abstract}      
+      Using an automated development tool for backend generation is a cost saving, affordable and swift approach for effortlessly creating cross platfom applications. Backend as a Service (BaaS) is the term used for providing web and mobile app developers with a way to connect their applications to backend cloud storage and processing while also providing common features such as user management, push notifications, social networking integration, and other features that mobile users demand from their apps these days. The developers can use such tools for effective backend creation and providing an integrated analytics for businesses along with these tools is the next step.    	    	             
     \end{abstract}
+    \setcounter{page}{6}
     \tableofcontents{}    
-	\listoffigures
-
-    \chapter {Introduction}    
+    \listoffigures
+    
+    \newpage
+    \pagenumbering{arabic}
+    \setcounter{page}{1}
+    \chapter{ Introduction}    
     \section{Preamble}
     \label{sec:introduction}    
     Technology driven solutions and analytics based decision making is the core of any business in the current scenario. Moreover, creation and integration of backend and frontend for a medium sized application requires 18 weeks of time comprising of 55 percent time in backend development and average cost ranging from \$8000 to \$50,000.  Moreover in today’s scenario, there is a business urge to include statistics and other analysis to make crucial profit decisions.Growth of Analytics just as a Service is expected to be  23.4 bn dollars by 2021, and that of Backend as a service will be 208.1 bn dollars. Thenceforth, there arises the need for providing the developers with an automated tool with integrated features of backend and analytics development which will ultimately act as a profit making job in terms of cost, time and other crucial factors.
@@ -86,7 +98,7 @@
     Software solution providers face constant challenge to provide a cutting edge solution to their clients along with the minimization of cost and efforts. They tackle problems related to compatibility of various technologies and constant maintenance of the software. This has been done for a long time using conventional approach of complete software coding along with a dedicated maintenance cycle. The approach has been successful but their are a lot of redundant tasks which span across projects and the goal is to minimize these tasks which can be done with minimal or no coding.    
     \section{Objectives}
 
-    The aim of the project is - \\
+    The aim of the project is - 
     \begin{itemize}
       \item {\textbf{Stops unnecessary stack development:} Instead of many developers being forced to recreate a stack for each mobile app they develop, a BAaS service can provide for much of their underlying processing needs. The main issue would then be connecting to an API; instead of spending hours developing customized stacks, that have to be re-created, changed, and reassembled to fit the needs of each of the different app platform. Developers can build just what they need on top of the existing structures, instead of starting from scratch each time. }
   
@@ -108,22 +120,21 @@ The developer’s convenience to use these APIs will also be taken into consider
 As a parallel step, various analytical algorithms will also be developed to be provided to the developers as an on-the-go APIs/code. As a first step, we plan to integrate the most crucial 6-7 algorithms like of Classification, Clustering, Regression etc.
 The user can can select from a number of algorithms available to make a fully functioning funnel \footnote{Funnel is a sequence of algorithms which operate one after another and the output of one algorithm is input to the successive one; thereby generating desired output at the end.} whose entry point will have the live data stream and output being the final/live feed or report    
 \section{Organization of the Project Report}    
-The report has five chapters.Chapter 1 provides introduction about the project, its need, problem statement, objectives and solution approach.Chapter 2 is focused on the background of project which includes the area, available tools, hardware and software, the references used in the projects like the research papers and their limitations.Chapter 3 includes detailed problem statement, requirement analysis, functional and nonfunctional requirements, feasibility study, and other required diagrams which better present the picture.Chapter 4 includes the architectural diagrams, with the various design issues, architecture used, along with the insights of the various models, algorithms / approaches used. Chapter 5 presents the conclusion of the report with specifying the various phase wise implementation of the project.
+The report has five chapters. Chapter 1 provides introduction about the project, its need, problem statement, objectives and solution approach. Chapter 2 is focused on the background of project which includes the area, available tools, hardware and software, the references used in the projects like the research papers and their limitations. Chapter 3 includes detailed problem statement, requirement analysis, functional and nonfunctional requirements, feasibility study, and other required diagrams which better present the picture. Chapter 4 includes the architectural diagrams, with the various design issues, architecture used, along with the insights of the various models, algorithms / approaches used. Chapter 5 presents the conclusion of the report with specifying the various phase wise implementation of the project.
 
     
     
-    \chapter {Background}        
-    \section{Area}
-    \subsection{Backend as a service(BaaS)}    
+    \chapter {Background}            
+    \section{Backend as a service(BaaS)}    
     Developing a mobile application from scratch is more complicated task for developers because developers couldn’t build features fast enough to keep up with market need. \\
     First you have to research and select a technology stack, write the code, connect to 1 or more 3rd party cloud APIs, test your code, deploy the stack, make it secure, and constantly version and maintain everything when you add new features or 3rd party APIs change. \\
     So the industry needed a platform to help developers manage the complex balance between need and supply. This need gave birth to BaaS. \\    
     Backend as a service (BaaS) is a cloud computing architecture that provides mobile applications with access to servers, storage, databases and other resources that they need to run on – quickly and effortlessly. BaaS is disrupting the traditional ‘Mobile Enterprise Application Platform’ for today’s businesses by offering more turn-key functionalities than conventional API management to create better user experience (UX). \\
     
-    \subsection{Analytics as a Service}    
+    \section{Analytics as a Service}    
     For years, IT organizations have generated, collected and stored vast amounts of data. Now, IT is being asked not just to store the data but to provide the infrastructure to perform analytics on it. The trouble is that the task is a resource-intensive proposition. \\    
     According to Alex Barret[8],Analytics as a service (AaaS) refers to the provision of analytics software and operations through web-delivered technologies. These types of solutions offer businesses an alternative to developing internal hardware setups just to perform business analytics. \\
-    \subsection{Available Tools}
+    \section{Available Tools}
     Some of the popular BaaS tools available are :
     \begin{itemize}
     \item Firebase
@@ -132,12 +143,12 @@ The report has five chapters.Chapter 1 provides introduction about the project, 
     \item Cloudboost
     \end{itemize}
     
-    \subsection{Hardware tools}    
+    \section{Hardware tools}    
     \begin{itemize}
     \item A dedicated server with minimum 1GB of RAM
     \end{itemize}
 
-    \subsection{Software tools}    
+    \section{Software tools}    
     \begin{itemize}
     \item NodeJS     
     \item Python
@@ -148,8 +159,8 @@ The report has five chapters.Chapter 1 provides introduction about the project, 
     BaaS has been a recent trend in the application development industry.It aims to boost up the development process,thereby saving time and cost.The literature review will focus on the keywords of the problem,its pros and cons.The review is majorly based on work done by Phy Nguyen[7].
     
     \subsection{Backend as a Service (BaaS)}
-    In this section,pros and cons of BaaS will be discussed. \\
-    \subsubsection{Pros :}
+    In this section,pros and cons of BaaS will be discussed. 
+    \subsubsection{Pros}
     \begin{itemize}
       \item More focus on UI/UX.
       \item More extensible with less efforts.
@@ -158,7 +169,7 @@ The report has five chapters.Chapter 1 provides introduction about the project, 
       \item Easy visualisation and Real time analysis      
       \item Customisable analytics options      
       \end{itemize}
-      \subsubsection{Cons :} 
+      \subsubsection{Cons} 
       When it comes to disadvantages of a service, these are the categories :  control, scalability, and shutting-down probability. 
       \begin{itemize}
         \item Firstly, when an organisation has an application running over a BaaS, there is no complete control over its infrastructure and software stack (APIs, SDKs). 
@@ -180,21 +191,29 @@ The report has five chapters.Chapter 1 provides introduction about the project, 
     \end{itemize}
 
     \chapter {Analysis}
-    \section{Detailed Problem statement}
+    \section{Detailed Problem Statement}
     \label{sec:theory}
     Backend is considered to be backbone of any application regardless the platform it is made for, since it is the backend which deals with basic CRUD operations involved in an application and it also provide data persistency. But still the major focus from users perspective is on front end or user interface,but developers on standard, put only 40% of their effort for front-end part remaining in backend related task. \\
     The amount of work involved in creating this backend technology is never a simple task, there is a demand for various types of applications which demand to be completed within the prescribed deadlines. \\
-    It takes almost 18 weeks to develop and publish a standard native mobile application, which include almost 10 weeks to built a back-end and around 8 weeks to build the front-end.\\
-    The backend task contains a set of hectic steps in traditional approach including the following steps-\\
-    Envisioning - 2-4 weeks.\\
-    Iterative Development and Testing - 6-8 weeks.\\
-    Stabilization - 1-2 weeks.\\
-    Release - 2 weeks.\\
-    So, Total time (traditional approach) \\
-    App Making Cost = (UI/UX Design Hours + iOS App Hours + Android App Hours + Backend Server Hours) X Developer’s Hourly Rate.\\    
+    It takes almost 18 weeks to develop and publish a standard native mobile application, which include almost 10 weeks to built a back-end and around 8 weeks to build the front-end.\\    
+    \emph { The backend task contains a set of hectic steps in traditional approach including the following steps- }
+    \begin{itemize}
+      \item {Envisioning - 2-4 weeks. }
+      \item {Iterative Development and Testing - 6-8 weeks. }
+      \item {Stabilization - 1-2 weeks.}
+      \item {Release - 2 weeks. }
+    \end{itemize}    
+    So, Total time (traditional approach), \\
+    \emph{
+      App Making Cost = (UI/UX Design Hours + iOS App Hours + Android App Hours + Backend Server Hours)
+      $ \times $ Developer’s Hourly Rate.
+        } \\
     Moreover, in today’s scenarios as growing data and digitalisation of systems, the data can be used in various analytics related application, which has even worse condition since even small analytics requires a lot of effort to build on to the top of already developed application.\\    
     Mobile computing is growing rapidly many applications are cross-platform, and to create cross platform application we need centralised database which will support CRUD for various platform.\\
     Hence to provide Backend and Analytics as a service, which deals with to provide API based automated solution to backend and analytics in a single unit. It will target to automate simple backend and analytic related task and provide endpoint APIs for the same.\\    
+
+    \vfill
+
     \section{Requirement Analysis}    
     \subsection{Functional Requirement}
     \begin{enumerate}
@@ -275,6 +294,7 @@ The report has five chapters.Chapter 1 provides introduction about the project, 
         Output- Output or make the desired changes.
       }
       \end{enumerate}
+    \vfill
     \subsection{Non-Functional Requirement}
     \begin{enumerate}
       \item {\emph {Security :} 
@@ -312,26 +332,46 @@ The report has five chapters.Chapter 1 provides introduction about the project, 
       }
     \end{enumerate}
 
-    \chapter {Design}
-    \section{Preface}
+    \chapter {Design}    
     The diagrams that are necessary to analyse, visualize and evaluate the system are discussed in this chapter. Architecture, use case and ER diagrams are created to know the complete design of the system.
     \section{Diagrams}          
-      
-      \begin{figure}[h]
-        \includegraphics[width=1\textwidth]{Deployment.png}
-        \caption{ Deployment Diagram}  
-      \end{figure}
-    
-    \newpage          
-    \begin{figure}[h]
-      \includegraphics[width=1\textwidth]{usecase.png}
-      \caption{ Usecase Diagram}  
-    \end{figure}
-	\newpage
-	\begin{figure}[h]
-      \includegraphics[width=8.5in ,angle=90]{ER.jpg}
-      \caption{ ER Diagram}  
-    \end{figure}
+
+                
+        \begin{figure}[h]
+          \includegraphics[width=1\textwidth,angle=0]{images/Architecture-Diagram.png}
+        \caption{ Architecture Diagram}  
+        \end{figure}
+
+        \begin{figure}[h]
+          \includegraphics[width=8.5in ,angle=90]{images/usecase.png}
+        \caption{ Usecase Diagram}  
+        \end{figure}
+
+        \begin{figure}[h]
+          \includegraphics[width=1\textwidth]{images/PPI-2.png}
+          \caption{ Activity Diagram - 1}  
+        \end{figure}
+
+        \begin{figure}[h]
+          \includegraphics[width=1\textwidth]{images/PPI-3.png}
+          \caption{ Activity Diagram - 2}  
+        \end{figure}
+
+        \begin{figure}[h]
+          \includegraphics[width=1\textwidth]{images/PPI.png}
+          \caption{ Activity Diagram - 3}  
+        \end{figure}
+
+        \begin{figure}[h]
+          \includegraphics[width=1\textwidth]{images/Deployment.png}
+          \caption{ Deployment Diagram}  
+        \end{figure}
+
+        \newpage
+        \begin{figure}[h]
+          \includegraphics[width=8.5in ,angle=90]{images/ER.jpg}
+        \caption{ ER Diagram}  
+        \end{figure}
 
     \chapter {Conclusion}
     \section{Work carried out in phase 1}
@@ -389,6 +429,4 @@ The report has five chapters.Chapter 1 provides introduction about the project, 
 			Available at http://theseus.fi/bitstream/handle/10024/117483/Nguyen{\_}Phu.pdf?sequence=2
 		
 		\end{thebibliography}	
-    \end{document}\grid
-\grid
-\grid
+    \end{document}
