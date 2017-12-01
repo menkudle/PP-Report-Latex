@@ -1,10 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  1 DEC 2017 11:49
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  1 DEC 2017 11:54
 entering extended mode
- restricted \write18 enabled.
- file:line:error style messages enabled.
+ \write18 enabled.
  %&-line parsing enabled.
-**/home/aditya/PJT/ProjectPhase-I/PP-Report-Latex/report.tex
-(/home/aditya/PJT/ProjectPhase-I/PP-Report-Latex/report.tex
+**report.tex
+(./report.tex
 LaTeX2e <2016/02/01>
 Babel <3.9q> and hyphenation patterns for 81 language(s) loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
@@ -789,24 +788,6 @@ les
 
 LaTeX Warning: Label `sec:theory' multiply defined.
 
-
-LaTeX Warning: Label `nano3' multiply defined.
-
-
-LaTeX Warning: Label `nano3' multiply defined.
-
-
-LaTeX Warning: Label `nano3' multiply defined.
-
-
-LaTeX Warning: Label `nano3' multiply defined.
-
-
-LaTeX Warning: Label `nano3' multiply defined.
-
-
-LaTeX Warning: Label `nano3' multiply defined.
-
 )
 \openout1 = `report.aux'.
 
@@ -940,164 +921,190 @@ Chapter 1.
 [1
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 103.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 102.
 
  (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 103.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 102.
  [2] [3] [4]
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--133
+Underfull \hbox (badness 10000) in paragraph at lines 128--132
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
+Underfull \hbox (badness 10000) in paragraph at lines 134--136
 
  []
 
 [5
 
-] [6] [7]
-Chapter 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--214
+]
+Underfull \hbox (badness 10000) in paragraph at lines 139--144
 
  []
 
-[8
 
-] [9] [10] [11] [12] [13]
+Underfull \hbox (badness 10000) in paragraph at lines 139--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 139--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 154--156
+
+ []
+
+[6] [7] [8] [9]
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 243--251
+
+ []
+
+[10
+
+] [11] [12] [13] [14] [15]
 Chapter 4.
-<images/Deployment.png, id=76, 1053.9375pt x 387.4475pt>
+<images/Deployment.png, id=82, 1053.9375pt x 387.4475pt>
 File: images/Deployment.png Graphic file (type png)
 
 <use images/Deployment.png>
-Package pdftex.def Info: images/Deployment.png used on input line 340.
+Package pdftex.def Info: images/Deployment.png used on input line 377.
 (pdftex.def)             Requested size: 438.51411pt x 161.20746pt.
 
-<images/Architecture-Diagram.png, id=78, 2838.605pt x 1314.9125pt>
+<images/Architecture-Diagram.png, id=84, 2838.605pt x 1314.9125pt>
 File: images/Architecture-Diagram.png Graphic file (type png)
 
 <use images/Architecture-Diagram.png>
-Package pdftex.def Info: images/Architecture-Diagram.png used on input line 345
+Package pdftex.def Info: images/Architecture-Diagram.png used on input line 382
 .
 (pdftex.def)             Requested size: 650.39656pt x 361.33119pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/Hierarchical-Diagram.png, id=79, 2680.0125pt x 1033.8625pt>
+<images/Hierarchical-Diagram.png, id=85, 2680.0125pt x 1033.8625pt>
 File: images/Hierarchical-Diagram.png Graphic file (type png)
 
 <use images/Hierarchical-Diagram.png>
-Package pdftex.def Info: images/Hierarchical-Diagram.png used on input line 350
+Package pdftex.def Info: images/Hierarchical-Diagram.png used on input line 387
 .
 (pdftex.def)             Requested size: 650.41344pt x 361.35248pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/System-Flowchart-Diagram.png, id=80, 2449.15pt x 2479.2625pt>
+<images/System-Flowchart-Diagram.png, id=86, 2449.15pt x 2479.2625pt>
 File: images/System-Flowchart-Diagram.png Graphic file (type png)
 
 <use images/System-Flowchart-Diagram.png>
 Package pdftex.def Info: images/System-Flowchart-Diagram.png used on input line
- 355.
+ 392.
 (pdftex.def)             Requested size: 433.61539pt x 505.86879pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/usecase.png, id=81, 1035.87pt x 712.6625pt>
+<images/usecase.png, id=87, 1035.87pt x 712.6625pt>
 File: images/usecase.png Graphic file (type png)
  <use images/usecase.png>
-Package pdftex.def Info: images/usecase.png used on input line 360.
+Package pdftex.def Info: images/usecase.png used on input line 397.
 (pdftex.def)             Requested size: 614.295pt x 422.6421pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/PPI-2.png, id=82, 2790.425pt x 1033.8625pt>
+<images/PPI-2.png, id=88, 2790.425pt x 1033.8625pt>
 File: images/PPI-2.png Graphic file (type png)
  <use images/PPI-2.png>
-Package pdftex.def Info: images/PPI-2.png used on input line 365.
+Package pdftex.def Info: images/PPI-2.png used on input line 402.
 (pdftex.def)             Requested size: 614.295pt x 227.59244pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/PPI-3.png, id=83, 2449.15pt x 752.8125pt>
+<images/PPI-3.png, id=89, 2449.15pt x 752.8125pt>
 File: images/PPI-3.png Graphic file (type png)
  <use images/PPI-3.png>
-Package pdftex.def Info: images/PPI-3.png used on input line 370.
+Package pdftex.def Info: images/PPI-3.png used on input line 407.
 (pdftex.def)             Requested size: 614.295pt x 188.81146pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/PPI.png, id=84, 2830.575pt x 1124.2pt>
+<images/PPI.png, id=90, 2830.575pt x 1124.2pt>
 File: images/PPI.png Graphic file (type png)
  <use images/PPI.png>
-Package pdftex.def Info: images/PPI.png used on input line 375.
+Package pdftex.def Info: images/PPI.png used on input line 412.
 (pdftex.def)             Requested size: 614.295pt x 243.9626pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[14
+[16
 
  <./images/Deployment.png>]
-<images/ER.jpg, id=89, 1535.7375pt x 958.58125pt>
+<images/ER.jpg, id=95, 1535.7375pt x 958.58125pt>
 File: images/ER.jpg Graphic file (type jpg)
  <use images/ER.jpg>
-Package pdftex.def Info: images/ER.jpg used on input line 381.
+Package pdftex.def Info: images/ER.jpg used on input line 418.
 (pdftex.def)             Requested size: 614.295pt x 383.44034pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15 <./images/Architecture-Diagram.png>] [16 <./images/Hierarchical-Diagram.png
->] [17 <./images/System-Flowchart-Diagram.png>] [18 <./images/usecase.png>]
-[19 <./images/PPI-2.png>] [20 <./images/PPI-3.png>] [21 <./images/PPI.png>]
-[22 <./images/ER.jpg>]
+[17 <./images/Architecture-Diagram.png>] [18 <./images/Hierarchical-Diagram.png
+>] [19 <./images/System-Flowchart-Diagram.png>] [20 <./images/usecase.png>]
+[21 <./images/PPI-2.png>] [22 <./images/PPI-3.png>] [23 <./images/PPI.png>]
+[24 <./images/ER.jpg>]
 Chapter 5.
-[23
+[25
 
 ]
-Underfull \hbox (badness 4479) in paragraph at lines 410--412
+Underfull \hbox (badness 4479) in paragraph at lines 447--449
 []\OT1/cmr/m/it/12 Overview Of Back-end as a Ser-vice (BaaS) White Pa-per\OT1/c
 mr/m/n/12 . Avail-able at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 410--412
+Underfull \hbox (badness 10000) in paragraph at lines 447--449
 \OT1/cmr/m/n/12 http://baas.apievangelist.com/2013/05/08/overview-of-backend-as
 -a-service-
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 430--433
+Underfull \hbox (badness 5316) in paragraph at lines 467--470
 []\OT1/cmr/m/n/12 Ryan Goodrich, \OT1/cmr/m/it/12 What is BaaS (Back-end as a S
 er-vice)\OT1/cmr/m/n/12 . Avail-able at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--439
+Underfull \hbox (badness 10000) in paragraph at lines 472--476
 []\OT1/cmr/m/n/12 Nguyen, T, 2016, \OT1/cmr/m/it/12 Mo-bile Back-end as a Ser-v
 ice: The Pros
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 435--439
+Underfull \hbox (badness 10000) in paragraph at lines 472--476
 \OT1/cmr/m/it/12 and Cons of Parse Case com-pany: Su-per-App Oy\OT1/cmr/m/n/12 
 . Avail-able at
  []
 
-[24
+
+Underfull \hbox (badness 10000) in paragraph at lines 478--482
+[]\OT1/cmr/m/n/12 C. Ster-giou and D. Siganos , 2017, \OT1/cmr/m/it/12 Neu-ral 
+Net-work\OT1/cmr/m/n/12 . Avail-able at
+ []
+
+[26
 
 ] (./report.aux)
 
@@ -1105,13 +1112,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13885 strings out of 493029
- 267122 string characters out of 6136234
- 321324 words of memory out of 5000000
- 17116 multiletter control sequences out of 15000+600000
+ 13896 strings out of 493029
+ 267082 string characters out of 6136234
+ 321356 words of memory out of 5000000
+ 17128 multiletter control sequences out of 15000+600000
  12244 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,8n,56p,936b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,8n,56p,888b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/t
@@ -1121,10 +1128,10 @@ ist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmti12.pfb>
-Output written on report.pdf (30 pages, 1297716 bytes).
+Output written on report.pdf (32 pages, 1300378 bytes).
 PDF statistics:
- 158 PDF objects out of 1000 (max. 8388607)
- 98 compressed objects within 1 object stream
+ 166 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
