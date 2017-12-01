@@ -232,6 +232,9 @@ INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti12.tfm
 INPUT images/Architecture-Diagram.png
 INPUT ./images/Architecture-Diagram.png
 INPUT ./images/Architecture-Diagram.png
+INPUT images/Hierarchical-Diagram.png
+INPUT ./images/Hierarchical-Diagram.png
+INPUT ./images/Hierarchical-Diagram.png
 INPUT images/usecase.png
 INPUT ./images/usecase.png
 INPUT ./images/usecase.png

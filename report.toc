@@ -27,6 +27,6 @@
 \contentsline {section}{\numberline {3.3}Feasibility Study}{13}
 \contentsline {chapter}{\numberline {4}Design}{14}
 \contentsline {section}{\numberline {4.1}Diagrams}{14}
-\contentsline {chapter}{\numberline {5}Conclusion}{19}
-\contentsline {section}{\numberline {5.1}Work carried out in phase 1}{19}
-\contentsline {section}{\numberline {5.2}Work to be carried out in phase 2}{19}
+\contentsline {chapter}{\numberline {5}Conclusion}{20}
+\contentsline {section}{\numberline {5.1}Work carried out in phase 1}{20}
+\contentsline {section}{\numberline {5.2}Work to be carried out in phase 2}{20}

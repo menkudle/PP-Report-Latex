@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  1 DEC 2017 00:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  1 DEC 2017 09:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -980,47 +980,58 @@ Package pdftex.def Info: images/Architecture-Diagram.png used on input line 341
 .
 (pdftex.def)             Requested size: 438.51411pt x 203.12715pt.
 
-<images/usecase.png, id=78, 1035.87pt x 712.6625pt>
+<images/Hierarchical-Diagram.png, id=78, 2680.0125pt x 1033.8625pt>
+File: images/Hierarchical-Diagram.png Graphic file (type png)
+
+<use images/Hierarchical-Diagram.png>
+Package pdftex.def Info: images/Hierarchical-Diagram.png used on input line 346
+.
+(pdftex.def)             Requested size: 650.41344pt x 361.35248pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<images/usecase.png, id=79, 1035.87pt x 712.6625pt>
 File: images/usecase.png Graphic file (type png)
  <use images/usecase.png>
-Package pdftex.def Info: images/usecase.png used on input line 346.
+Package pdftex.def Info: images/usecase.png used on input line 351.
 (pdftex.def)             Requested size: 614.295pt x 422.6421pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/PPI-2.png, id=79, 823.075pt x 296.10625pt>
+<images/PPI-2.png, id=80, 823.075pt x 296.10625pt>
 File: images/PPI-2.png Graphic file (type png)
  <use images/PPI-2.png>
-Package pdftex.def Info: images/PPI-2.png used on input line 351.
+Package pdftex.def Info: images/PPI-2.png used on input line 356.
 (pdftex.def)             Requested size: 438.51411pt x 157.75787pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/PPI-3.png, id=80, 933.4875pt x 200.75pt>
+<images/PPI-3.png, id=81, 933.4875pt x 200.75pt>
 File: images/PPI-3.png Graphic file (type png)
  <use images/PPI-3.png>
-Package pdftex.def Info: images/PPI-3.png used on input line 356.
+Package pdftex.def Info: images/PPI-3.png used on input line 361.
 (pdftex.def)             Requested size: 438.51411pt x 94.30348pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/PPI.png, id=81, 1437.37pt x 631.35875pt>
+<images/PPI.png, id=82, 1437.37pt x 631.35875pt>
 File: images/PPI.png Graphic file (type png)
  <use images/PPI.png>
-Package pdftex.def Info: images/PPI.png used on input line 361.
+Package pdftex.def Info: images/PPI.png used on input line 366.
 (pdftex.def)             Requested size: 438.51411pt x 192.61713pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/Deployment.png, id=82, 1053.9375pt x 387.4475pt>
+<images/Deployment.png, id=83, 1053.9375pt x 387.4475pt>
 File: images/Deployment.png Graphic file (type png)
 
 <use images/Deployment.png>
-Package pdftex.def Info: images/Deployment.png used on input line 366.
+Package pdftex.def Info: images/Deployment.png used on input line 371.
 (pdftex.def)             Requested size: 438.51411pt x 161.20746pt.
 
 
@@ -1029,51 +1040,52 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [14
 
  <./images/Architecture-Diagram.png>]
-<images/ER.jpg, id=87, 1535.7375pt x 958.58125pt>
+<images/ER.jpg, id=88, 1535.7375pt x 958.58125pt>
 File: images/ER.jpg Graphic file (type jpg)
  <use images/ER.jpg>
-Package pdftex.def Info: images/ER.jpg used on input line 372.
+Package pdftex.def Info: images/ER.jpg used on input line 377.
 (pdftex.def)             Requested size: 614.295pt x 383.44034pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[15 <./images/usecase.png>] [16 <./images/PPI-2.png> <./images/PPI-3.png> <./im
-ages/PPI.png>] [17 <./images/Deployment.png>] [18 <./images/ER.jpg>]
+[15 <./images/Hierarchical-Diagram.png>] [16 <./images/usecase.png>] [17 <./ima
+ges/PPI-2.png> <./images/PPI-3.png> <./images/PPI.png>] [18 <./images/Deploymen
+t.png>] [19 <./images/ER.jpg>]
 Chapter 5.
-[19
+[20
 
 ]
-Underfull \hbox (badness 4479) in paragraph at lines 401--403
+Underfull \hbox (badness 4479) in paragraph at lines 406--408
 []\OT1/cmr/m/it/12 Overview Of Back-end as a Ser-vice (BaaS) White Pa-per\OT1/c
 mr/m/n/12 . Avail-able at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 401--403
+Underfull \hbox (badness 10000) in paragraph at lines 406--408
 \OT1/cmr/m/n/12 http://baas.apievangelist.com/2013/05/08/overview-of-backend-as
 -a-service-
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 421--424
+Underfull \hbox (badness 5316) in paragraph at lines 426--429
 []\OT1/cmr/m/n/12 Ryan Goodrich, \OT1/cmr/m/it/12 What is BaaS (Back-end as a S
 er-vice)\OT1/cmr/m/n/12 . Avail-able at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--430
+Underfull \hbox (badness 10000) in paragraph at lines 431--435
 []\OT1/cmr/m/n/12 Nguyen, T, 2016, \OT1/cmr/m/it/12 Mo-bile Back-end as a Ser-v
 ice: The Pros
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 426--430
+Underfull \hbox (badness 10000) in paragraph at lines 431--435
 \OT1/cmr/m/it/12 and Cons of Parse Case com-pany: Su-per-App Oy\OT1/cmr/m/n/12 
 . Avail-able at
  []
 
-[20
+[21
 
 ] (./report.aux)
 
@@ -1081,13 +1093,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13875 strings out of 493029
- 266768 string characters out of 6136234
- 321322 words of memory out of 5000000
- 17108 multiletter control sequences out of 15000+600000
+ 13880 strings out of 493029
+ 266935 string characters out of 6136234
+ 321324 words of memory out of 5000000
+ 17112 multiletter control sequences out of 15000+600000
  12244 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,8n,56p,936b,303s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,8n,56p,936b,306s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
 are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/t
@@ -1097,10 +1109,10 @@ ist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/font
 s/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
 public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
 /amsfonts/cm/cmti12.pfb>
-Output written on report.pdf (26 pages, 892950 bytes).
+Output written on report.pdf (27 pages, 1013017 bytes).
 PDF statistics:
- 142 PDF objects out of 1000 (max. 8388607)
- 90 compressed objects within 1 object stream
+ 147 PDF objects out of 1000 (max. 8388607)
+ 92 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
