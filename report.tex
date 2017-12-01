@@ -134,6 +134,45 @@ The report has five chapters. Chapter 1 provides introduction about the project,
     \section{Analytics as a Service}    
     For years, IT organizations have generated, collected and stored vast amounts of data. Now, IT is being asked not just to store the data but to provide the infrastructure to perform analytics on it. The trouble is that the task is a resource-intensive proposition. \\    
     According to Alex Barret[8],Analytics as a service (AaaS) refers to the provision of analytics software and operations through web-delivered technologies. These types of solutions offer businesses an alternative to developing internal hardware setups just to perform business analytics. \\
+    \subsection{Algorithms to be used in Analytics}
+    At the start, 5 algorithms will be given as option to the user to integrate them in analytics. Other algorithms can then be integrated afterwards. These are:
+    \begin{enumerate}
+    	\item Neural Network\\ \\
+    	C. Stergiou and D. Siganos \cite{nano8} defined Neural Network as "An Artificial Neural Network (ANN) is an information processing paradigm that is inspired by the way biological nervous systems, such as the brain, process information". \\
+    	\\
+    	Application of Neural network:\\ \\
+    	The neural network can be used in wide variety of classification,prediction and forecasting tasks such as:
+    	\begin{itemize}
+    		\item Sales forecasting
+    		\item Industrial process control
+    		\item Customer research
+    		\item Data validation
+    		\item Risk management
+    		\item Target marketing
+    		\item Modelling and Diagnosing the Cardiovascular System
+    		\item Credit Evaluation      
+    	\end{itemize}
+    	\item Linear Regression\\ \\
+    	Linear regression is a linear approach for modeling the relationship between a scalar dependent variable y and one or more explanatory variables (or independent variables) denoted X. Several linear regression analyses available are:
+    	\begin{itemize}
+    		\item Simple linear regression:
+    		1 dependent variable (interval or ratio), 1 independent variable (interval or ratio or dichotomous)
+    		\item Multiple linear regression:
+    		1 dependent variable (interval or ratio) , 2+ independent variables (interval or ratio or dichotomous)
+    		\item Logistic regression:
+    		1 dependent variable (binary), 2+ independent variable(s) (interval or ratio or dichotomous)     
+    	\end{itemize}
+    	\\
+    	Application of Linear Regression:
+    	\begin{itemize}
+    		\item Trend estimation
+    		\item In Economics:  consumption spending, fixed investment spending, inventory investment, purchases of a country's exports, spending on imports, the demand to hold liquid assets, labor demand, and labor supply.
+    		\item In Finance: capital asset pricing model, risk analysis of investment
+    		\item In Business: sales of a product, pricing, performance      
+    	\end{itemize}
+    
+    	
+    \end{enumerate}
     \section{Available Tools}
     Some of the popular BaaS tools available are :
     \begin{itemize}
@@ -397,41 +436,51 @@ The report has five chapters. Chapter 1 provides introduction about the project,
     
     \renewcommand{\bibname}{References}
     \begin{thebibliography}{9}
+    \bibitem{nano1}
+    Francis Gropengießer and Kai-Uwe Sattler,
+    \emph{Database Backend as a Service: Automatic Generation, Deployment, and Management of Database Backends for Mobile Applications}.
+    Available at https://link.springer.com/article/10.1007/s13222-014-0157-y
+    
+    \bibitem{nano2}
+    \emph{Overview Of Backend as a Service (BaaS) White Paper}.
+    Available at http://baas.apievangelist.com/2013/05/08/overview-of-backend-as-a-service-baas-white-paper/
+    
+    
     \bibitem{nano3}
-    	Francis Gropengießer and Kai-Uwe Sattler,
-      \emph{Database Backend as a Service: Automatic Generation, Deployment, and Management of Database Backends for Mobile Applications}.
-			Available at https://link.springer.com/article/10.1007/s13222-014-0157-y
-			
-		\bibitem{nano3}
-      \emph{Overview Of Backend as a Service (BaaS) White Paper}.
-			Available at http://baas.apievangelist.com/2013/05/08/overview-of-backend-as-a-service-baas-white-paper/
-			
-								
-		\bibitem{nano3}
-			Balkan, A. 2012,
-      \emph{What are the pros and cons of using a backend as a service?}.
-			Available at https://www.quora.com/What-are-the-pros-and-cons-of-using-a-backend-as-a-service
-		
-		\bibitem{nano3}
-			Backend as a Service (BaaS) Market Global forecast for 2020,
-			Available at http://www.marketsandmarkets.com/PressReleases/baas.asp		
-		
-		\bibitem{nano3}
-			Backendless website 2016,
-      \emph{Database Backend as a Service: Automatic Generation, Deployment, and Management of Database Backends for Mobile Applications}.
-			Available at https://backendless.com/what-is-backend-as-a-service/
-	
-
-		\bibitem{nano3}
-			Ryan Goodrich,
-      \emph{What is BaaS (Backend as a Service)}.
-			Available at http://www.businessnewsdaily.com/4992-what-is-baas.html	
-			
-		\bibitem{nano3}
-			Nguyen, T, 2016,
-      \emph{Mobile Backend as a Service: The Pros and Cons of Parse
-			Case company: SuperApp Oy}.
-			Available at http://theseus.fi/bitstream/handle/10024/117483/Nguyen{\_}Phu.pdf?sequence=2
+    Balkan, A. 2012,
+    \emph{What are the pros and cons of using a backend as a service?}.
+    Available at https://www.quora.com/What-are-the-pros-and-cons-of-using-a-backend-as-a-service
+    
+    \bibitem{nano4}
+    Backend as a Service (BaaS) Market Global forecast for 2020,
+    Available at http://www.marketsandmarkets.com/PressReleases/baas.asp		
+    
+    \bibitem{nano5}
+    Backendless website 2016,
+    \emph{Database Backend as a Service: Automatic Generation, Deployment, and Management of Database Backends for Mobile Applications}.
+    Available at https://backendless.com/what-is-backend-as-a-service/
+    
+    
+    \bibitem{nano6}
+    Ryan Goodrich,
+    \emph{What is BaaS (Backend as a Service)}.
+    Available at http://www.businessnewsdaily.com/4992-what-is-baas.html	
+    
+    \bibitem{nano7}
+    Nguyen, T, 2016,
+    \emph{Mobile Backend as a Service: The Pros and Cons of Parse
+    	Case company: SuperApp Oy}.
+    Available at http://theseus.fi/bitstream/handle/10024/117483/Nguyen{\_}Phu.pdf?sequence=2
+    
+    \bibitem{nano8}
+    C. Stergiou and D. Siganos , 2017,
+    \emph{Neural Network}.
+    Available at 
+    https://www.doc.ic.ac.uk/~nd/surprise{\_}96/journal/vol4/cs11/report.html    
+    \bibitem{nano9}
+    What is Linear Regression.
+    Available at http://www.statisticssolutions.com/what-is-linear-regression/
+    
 		
 		\end{thebibliography}	
     \end{document}

@@ -9,24 +9,25 @@
 \contentsline {chapter}{\numberline {2}Background}{5}
 \contentsline {section}{\numberline {2.1}Backend as a service(BaaS)}{5}
 \contentsline {section}{\numberline {2.2}Analytics as a Service}{5}
-\contentsline {section}{\numberline {2.3}Available Tools}{6}
-\contentsline {section}{\numberline {2.4}Hardware tools}{6}
-\contentsline {section}{\numberline {2.5}Software tools}{6}
-\contentsline {section}{\numberline {2.6}Literature review}{6}
-\contentsline {subsection}{\numberline {2.6.1}Backend as a Service (BaaS)}{6}
-\contentsline {subsubsection}{Pros}{6}
-\contentsline {subsubsection}{Cons}{7}
-\contentsline {subsection}{\numberline {2.6.2}Analytics as a service}{7}
-\contentsline {subsubsection}{Pros}{7}
-\contentsline {subsubsection}{Cons}{7}
-\contentsline {chapter}{\numberline {3}Analysis}{8}
-\contentsline {section}{\numberline {3.1}Detailed Problem Statement}{8}
-\contentsline {section}{\numberline {3.2}Requirement Analysis}{10}
-\contentsline {subsection}{\numberline {3.2.1}Functional Requirement}{10}
-\contentsline {subsection}{\numberline {3.2.2}Non-Functional Requirement}{13}
-\contentsline {section}{\numberline {3.3}Feasibility Study}{13}
-\contentsline {chapter}{\numberline {4}Design}{14}
-\contentsline {section}{\numberline {4.1}Diagrams}{14}
-\contentsline {chapter}{\numberline {5}Conclusion}{20}
-\contentsline {section}{\numberline {5.1}Work carried out in phase 1}{20}
-\contentsline {section}{\numberline {5.2}Work to be carried out in phase 2}{20}
+\contentsline {subsection}{\numberline {2.2.1}Algorithms to be used in Analytics}{6}
+\contentsline {section}{\numberline {2.3}Available Tools}{7}
+\contentsline {section}{\numberline {2.4}Hardware tools}{7}
+\contentsline {section}{\numberline {2.5}Software tools}{7}
+\contentsline {section}{\numberline {2.6}Literature review}{8}
+\contentsline {subsection}{\numberline {2.6.1}Backend as a Service (BaaS)}{8}
+\contentsline {subsubsection}{Pros}{8}
+\contentsline {subsubsection}{Cons}{8}
+\contentsline {subsection}{\numberline {2.6.2}Analytics as a service}{9}
+\contentsline {subsubsection}{Pros}{9}
+\contentsline {subsubsection}{Cons}{9}
+\contentsline {chapter}{\numberline {3}Analysis}{10}
+\contentsline {section}{\numberline {3.1}Detailed Problem Statement}{10}
+\contentsline {section}{\numberline {3.2}Requirement Analysis}{12}
+\contentsline {subsection}{\numberline {3.2.1}Functional Requirement}{12}
+\contentsline {subsection}{\numberline {3.2.2}Non-Functional Requirement}{15}
+\contentsline {section}{\numberline {3.3}Feasibility Study}{15}
+\contentsline {chapter}{\numberline {4}Design}{16}
+\contentsline {section}{\numberline {4.1}Diagrams}{16}
+\contentsline {chapter}{\numberline {5}Conclusion}{22}
+\contentsline {section}{\numberline {5.1}Work carried out in phase 1}{22}
+\contentsline {section}{\numberline {5.2}Work to be carried out in phase 2}{22}
