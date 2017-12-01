@@ -10,9 +10,15 @@
 
     % CUSTOM MARGIN AND PARAMETER
     \usepackage[a4paper, portrait, left=1.2in,right=1in,bottom=1in,top=1in]{geometry}
-
     \usepackage{sectsty}
-    
+    \usepackage{amssymb}
+    \usepackage{pifont}
+    \newcommand{\cmark}{\ding{51}}
+    \newcommand{\xmark}{\ding{55}}
+    \usepackage{caption}
+    \usepackage{mathptmx}
+
+    \captionsetup[table]{font=small,textfont=it}
     \sectionfont{\fontsize{12}{1.5}\selectfont}
     \subsectionfont{\normalfont \itshape \fontsize{12}{1.5}\selectfont}
     \subsubsectionfont{\normalfont \itshape \fontsize{12}{1.5}\selectfont}
@@ -27,8 +33,8 @@
     % {20pt}{\Huge}
 
     % Parameters for 1.5 line spacing and paragraph space
-    % \setlength{\parindent}{0em}
-    % \setlength{\parskip}{1em}
+    \setlength{\parindent}{0em}
+    \setlength{\parskip}{1em}
     \renewcommand{\baselinestretch}{1.5}
          
     
@@ -38,44 +44,12 @@
     \date{14 Oct, 2017}
     
 
-
     \begin{document}    
     \pagenumbering{roman}
-    \begin{titlepage}
-      \newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
-      \center
-      \textsc{\LARGE Shri G.S. Institute of Technology and Science}\\[1.5cm]
-      \textsc{\Large Project Phase I}\\[0.5cm]
-      \textsc{\large 2017-18}\\[0.5cm]
-      \HRule \\[0.4cm]
-      { \huge \bfseries Backend and Analytics as a Service}\\[0.4cm] % Title of your document
-      \HRule \\[1.5cm]
-      \includegraphics{images/logo.jpg}\\[5cm] % Include a department/university logo - this will require the graphicx package    
-      \begin{minipage}{0.4\textwidth}
-      \begin{flushleft} \large
-      \textbf{\emph{Guided By:}}\\
-      Prof. D.A. Mehta
-      \end{flushleft}
-      \end{minipage}
-      \begin{minipage}{0.4\textwidth}
-      \begin{flushright} \normalsize
-      \textbf{\emph{Submitted to:}} \\
-      Srajan Soni (0801CS141083)\\
-      Suryansh Soni (0801CS141086)\\
-      Abhishek Verma (0801EC141002)\\
-      Shubham Menkudle (0801CS141078)\\
-      Aditya Vashishtha (0801EE141005)\\                     
-      \end{flushright}
-      \end{minipage}\\[2cm]            
-      \vfill       
-    \end{titlepage}    
-    
-    \begin{abstract}      
-      Using an automated development tool for backend generation is a cost saving, affordable and swift approach for effortlessly creating cross platfom applications. Backend as a Service (BaaS) is the term used for providing web and mobile app developers with a way to connect their applications to backend cloud storage and processing while also providing common features such as user management, push notifications, social networking integration, and other features that mobile users demand from their apps these days. The developers can use such tools for effective backend creation and providing an integrated analytics for businesses along with these tools is the next step.
-    \end{abstract}
-    \setcounter{page}{6}
+    \setcounter{page}{7}
     \tableofcontents{}    
     \listoffigures
+    \listoftables
     
     \newpage
     \pagenumbering{arabic}
@@ -83,7 +57,7 @@
     \chapter{ Introduction}    
     \section{Preamble}
     \label{sec:introduction}    
-    Technology driven solutions and analytics based decision making is the core of any business in the current scenario. Moreover, creation and integration of backend and frontend for a medium sized application requires 18 weeks of time comprising of 55 percent time in backend development and average cost ranging from \$8000 to \$50,000.  Moreover in today’s scenario, there is a business urge to include statistics and other analysis to make crucial profit decisions.Growth of Analytics just as a Service is expected to be  23.4 bn dollars by 2021, and that of Backend as a service will be 208.1 bn dollars. Thenceforth, there arises the need for providing the developers with an automated tool with integrated features of backend and analytics development which will ultimately act as a profit making job in terms of cost, time and other crucial factors.
+    Technology driven solutions and analytics based decision making is the core of any business in the current scenario. Moreover, creation and integration of backend and frontend for a medium sized application requires 18 weeks of time comprising of 55{\%} time\cite{nano4} in backend development and average cost ranging from \$8000 to \$50,000.  Moreover in today’s scenario, there is a business urge to include statistics and other analysis to make crucial profit decisions. Growth of Analytics just as a Service is expected to be  23.4 bn dollars by 2021, and that of Backend as a service will be 208.1 bn dollars. Thenceforth, there arises the need for providing the developers with an automated tool with integrated features of backend and analytics development which will ultimately act as a profit making job in terms of cost, time and other crucial factors.
     \section{Need of the project}
     \label{sec:theory}
     Developing the backend and analytics services at a single platform along with the minimization of the actual coding hours is the need of the hour; thereby increasing the throughput. At the same time, due to the digitization and the demand of analytics in business sector, there is a vast opportunity for the application developers to integrate analytics solution in their applications. 
@@ -95,8 +69,9 @@
     Also, considering the analytics, the developers have to spend a lot of time studying and working on the algorithms that seems to be feasible to the situation. This also reduces the scope of algorithm comparison for the feasibility and optimality as the developer has to spend a lot of time creating different algorithms and then performing analytics with their help; so usually they come up with a theoretically optimal algorithm than a practical and tested/compared optimal ones.
     \section{Problem Statement}
     Software solution providers face constant challenge to provide a cutting edge solution to their clients along with the minimization of cost and efforts. They tackle problems related to compatibility of various technologies and constant maintenance of the software. This has been done for a long time using conventional approach of complete software coding along with a dedicated maintenance cycle. The approach has been successful but their are a lot of redundant tasks which span across projects and the goal is to minimize these tasks which can be done with minimal or no coding.    
+    
+    \newpage
     \section{Objectives}
-
     The aim of the project is - 
     \begin{itemize}
       \item {\textbf{Stops unnecessary stack development:} Instead of many developers being forced to recreate a stack for each mobile app they develop, a BAaS service can provide for much of their underlying processing needs. The main issue would then be connecting to an API; instead of spending hours developing customized stacks, that have to be re-created, changed, and reassembled to fit the needs of each of the different app platform. Developers can build just what they need on top of the existing structures, instead of starting from scratch each time. }
@@ -126,20 +101,18 @@ The report has five chapters. Chapter 1 provides introduction about the project,
     \chapter {Background}            
     \section{Backend as a service(BaaS)}    
     Developing a mobile application from scratch is more complicated task for developers because developers couldn’t build features fast enough to keep up with market need. \\
-    First you have to research and select a technology stack, write the code, connect to 1 or more 3rd party cloud APIs, test your code, deploy the stack, make it secure, and constantly version and maintain everything when you add new features or 3rd party APIs change. \\
-    So the industry needed a platform to help developers manage the complex balance between need and supply. This need gave birth to BaaS. \\    
-    Backend as a service (BaaS) is a cloud computing architecture that provides mobile applications with access to servers, storage, databases and other resources that they need to run on – quickly and effortlessly. BaaS is disrupting the traditional ‘Mobile Enterprise Application Platform’ for today’s businesses by offering more turn-key functionalities than conventional API management to create better user experience (UX). \\
-    
+    First you have to research and select a technology stack, write the code, connect to 1 or more 3rd party cloud APIs, test your code, deploy the stack, make it secure, and constantly version and maintain everything when you add new features or 3rd party APIs change. \par
+    So the industry needed a platform to help developers manage the complex balance between need and supply. This need gave birth to BaaS. 
+    \par Backend as a service (BaaS) is a cloud computing architecture that provides mobile applications with access to servers, storage, databases and other resources that they need to run on – quickly and effortlessly. BaaS is disrupting the traditional ‘Mobile Enterprise Application Platform’ for today’s businesses by offering more turn-key functionalities than conventional API management to create better user experience (UX). 
     \section{Analytics as a Service}    
     For years, IT organizations have generated, collected and stored vast amounts of data. Now, IT is being asked not just to store the data but to provide the infrastructure to perform analytics on it. The trouble is that the task is a resource-intensive proposition. \\    
-    According to Alex Barret[8],Analytics as a service (AaaS) refers to the provision of analytics software and operations through web-delivered technologies. These types of solutions offer businesses an alternative to developing internal hardware setups just to perform business analytics. \\
+    According to Barret[8], Analytics as a service refers to the provision of analytics software and operations through web-delivered technologies. These types of solutions offer businesses an alternative to developing internal hardware setups just to perform business analytics.
     \subsection{Algorithms to be used in Analytics}
     At the start, 5 algorithms will be given as option to the user to integrate them in analytics. Other algorithms can then be integrated afterwards. These are:
     \begin{enumerate}
-    	\item Neural Network\\ \\
+    	\item \emph{Neural Network}\\
     	C. Stergiou and D. Siganos \cite{nano8} defined Neural Network as "An Artificial Neural Network (ANN) is an information processing paradigm that is inspired by the way biological nervous systems, such as the brain, process information". \\
-    	\\
-    	Application of Neural network:\\ \\
+    	Application of Neural network:\\ 
     	The neural network can be used in wide variety of classification,prediction and forecasting tasks such as:
     	\begin{itemize}
     		\item Sales forecasting
@@ -150,8 +123,9 @@ The report has five chapters. Chapter 1 provides introduction about the project,
     		\item Target marketing
     		\item Modelling and Diagnosing the Cardiovascular System
     		\item Credit Evaluation      
-    	\end{itemize}
-    	\item Linear Regression\\ \\
+      \end{itemize}
+      
+    	\item \emph{Linear Regression}\\
     	Linear regression is a linear approach for modeling the relationship between a scalar dependent variable y and one or more explanatory variables (or independent variables) denoted X. Several linear regression analyses available are:
     	\begin{itemize}
     		\item Simple linear regression:
@@ -160,7 +134,8 @@ The report has five chapters. Chapter 1 provides introduction about the project,
     		1 dependent variable (interval or ratio) , 2+ independent variables (interval or ratio or dichotomous)
     		\item Logistic regression:
     		1 dependent variable (binary), 2+ independent variable(s) (interval or ratio or dichotomous)     
-    	\end{itemize}
+      \end{itemize}
+      
     	Application of Linear Regression:
     	\begin{itemize}
     		\item Trend estimation
@@ -168,18 +143,61 @@ The report has five chapters. Chapter 1 provides introduction about the project,
     		\item In Finance: capital asset pricing model, risk analysis of investment
     		\item In Business: sales of a product, pricing, performance      
     	\end{itemize}
-    
     	
+    	\item \emph{K-Means Clustering}\\
+    	k-means clustering is a method of vector quantization, originally from signal processing, that is 		popular for cluster analysis in data mining. k-means clustering aims to partition n observations 			into k clusters in which each observation belongs to the cluster with the nearest mean, serving 			as a prototype of the cluster.
+       	\\
+    	Application of K-Means Clustering:
+    	\begin{itemize}
+    		\item Vector quantization
+    		\item Cluster analysis
+    		\item Feature learning
+    		   
+    	\end{itemize}
+    	
+    	\item \emph{Naive Bayes Classifier}\\ 
+    	Naive Bayes classifiers are a family of simple probabilistic classifiers based on applying Bayes' 		theorem with strong (naive) independence assumptions between the features.Naive Bayes is a simple 		technique for constructing classifiers: models that assign class labels to problem instances, 				represented as vectors of feature values, where the class labels are drawn from some finite set. 			It is not a single algorithm for training such classifiers, but a family of algorithms based on a 		common principle: all naive Bayes classifiers assume that the value of a particular feature is 				independent of the value of any other feature, given the class variable.
+       	\\
+    	\vfill
+    	\item \emph{Support Vector Machines}\\
+    	In machine learning, support vector machines (SVMs, also support vector networks) are supervised 			learning models with associated learning algorithms that analyze data used for classification and 		regression analysis. Given a set of training examples, each marked as belonging to one or the 				other of two categories, an SVM training algorithm builds a model that assigns new examples to 				one category or the other, making it a non-probabilistic binary linear classifier 
+       	\\
+    	Application of Support Vector Machine:
+    	\begin{itemize}
+    		\item Text and hypertext categorization
+    		\item Classification of images
+    		\item Hand-written character recognition    		   
+      \end{itemize}
+      
+    	\item \emph{Naive Bayes Classifier}\\
+    	Naive Bayes classifiers are a family of simple probabilistic classifiers based on applying Bayes' 		theorem with strong (naive) independence assumptions between the features.Naive Bayes is a simple 		technique for constructing classifiers: models that assign class labels to problem instances, 				represented as vectors of feature values, where the class labels are drawn from some finite set. 			It is not a single algorithm for training such classifiers, but a family of algorithms based on a 		common principle: all naive Bayes classifiers assume that the value of a particular feature is 				independent of the value of any other feature, given the class variable.
     \end{enumerate}
-    \section{Available Tools}
-    Some of the popular BaaS tools available are :
-    \begin{itemize}
-    \item Firebase
-    \item Parse
-    \item Kinvey
-    \item Cloudboost
-    \end{itemize}
     
+    \newpage
+    \section{Available Tools and Comparision}
+    \begin{table}[h!]
+      \centering
+      \caption{Feature Comparision between Existing tools}
+      \begin{tabular}{ |c|c|c|c|c| } 
+      \hline
+      Features & Parse & Firebase & Algolia & BAaS\\
+      \hline
+      % \multirow{3}{4em}{Multiple row} & cell2 & cell3 \\ 
+      Open Source & \cmark & \xmark & \xmark & \cmark \\ 
+      Data Storage & \cmark & \cmark & \cmark & \cmark \\  
+      Real Time & \xmark & \cmark & \xmark & \cmark \\ 
+      Files & \cmark & \xmark & \xmark & \cmark \\ 
+      Authentication & \cmark & \cmark & \xmark & \cmark \\ 
+      Cloud Deployment & \xmark & \xmark & \xmark & \cmark \\ 
+      Push Notification & \cmark & \xmark & \xmark & \cmark \\
+      Data Analytics & \xmark & \xmark & \xmark & \cmark \\ 
+      Log Analytics & \xmark & \cmark & \xmark & \cmark \\ 
+      \hline
+      \end{tabular}
+      
+      \label{table:1}
+    \end{table}
+   
     \section{Hardware tools}    
     \begin{itemize}
     \item A dedicated server with minimum 1GB of RAM
@@ -230,21 +248,24 @@ The report has five chapters. Chapter 1 provides introduction about the project,
     \chapter {Analysis}
     \section{Detailed Problem Statement}
     \label{sec:theory}
-    Backend is considered to be backbone of any application regardless the platform it is made for, since it is the backend which deals with basic CRUD operations involved in an application and it also provide data persistency. But still the major focus from users perspective is on front end or user interface,but developers on standard, put only 40% of their effort for front-end part remaining in backend related task. \\
+    Backend is considered to be backbone of any application regardless the platform it is made for, since it is the backend which deals with basic CRUD operations involved in an application and it also provide data persistency. But still the major focus from users perspective is on front end or user interface,but developers on standard, put only 40{\%} of their effort for front-end part remaining in backend related task. \\
     The amount of work involved in creating this backend technology is never a simple task, there is a demand for various types of applications which demand to be completed within the prescribed deadlines. \\
     It takes almost 18 weeks to develop and publish a standard native mobile application, which include almost 10 weeks to built a back-end and around 8 weeks to build the front-end.\\    
-    \emph { The backend task contains a set of hectic steps in traditional approach including the following steps- }
+    \emph { The backend task contains a set of hectic steps in traditional approach including the following steps-}
+    \vspace{-0.50cm}
     \begin{itemize}
       \item {Envisioning - 2-4 weeks. }
       \item {Iterative Development and Testing - 6-8 weeks. }
       \item {Stabilization - 1-2 weeks.}
       \item {Release - 2 weeks. }
-    \end{itemize}    
+    \end{itemize} 
+    \vspace{-0.50cm}   
     So, Total time (traditional approach), \\
     \emph{
       App Making Cost = (UI/UX Design Hours + iOS App Hours + Android App Hours + Backend Server Hours)
       $ \times $ Developer’s Hourly Rate.
         } \\
+        \vfill
     Moreover, in today’s scenarios as growing data and digitalisation of systems, the data can be used in various analytics related application, which has even worse condition since even small analytics requires a lot of effort to build on to the top of already developed application.\\    
     Mobile computing is growing rapidly many applications are cross-platform, and to create cross platform application we need centralised database which will support CRUD for various platform.\\
     Hence to provide Backend and Analytics as a service, which deals with to provide API based automated solution to backend and analytics in a single unit. It will target to automate simple backend and analytic related task and provide endpoint APIs for the same.\\    
@@ -265,7 +286,7 @@ The report has five chapters. Chapter 1 provides introduction about the project,
         Input- Choose to create endpoints and mode. \\
         Output- Display the successful endpoints in an organised and easy to access way.
       }
-      \item {\emph {Customize Template : } User is provided with option to customize template as per his need hence further modification for same endpoint.\\
+      \item {\emph {Edit Template : } User is provided with option to customize template as per his need hence further modification for same endpoint.\\
         Input- Choose an endpoint and make customizations (Input as a new customised template).\\
         Output- Updated the modified template to the user’s area.
         }                        
@@ -273,11 +294,11 @@ The report has five chapters. Chapter 1 provides introduction about the project,
         Input- Choose private access for the desired schema and provide some security code (id).\\
         Output- Authenticated schema (accessible only by valid authority).
       }
-      \item {\emph {Generate Key : }For authentication purpose a private and public key combination is generated.\\
+      \item {\emph {Generate tokens : }For authentication purpose a private and public tokens combination is generated.\\
         Input- Get user’s credentials. \\      
         Output- Generate unique authentication id and update/store it to database.
       }
-      \item {\emph {Match Key :} If user has selected for private access as per some id or database schema column, he can authenticate that endpoint.\\
+      \item {\emph {Match tokens :} If user has selected for private access as per some id or database schema column, he can authenticate that endpoint.\\
         Input- Request API access with unique Id. \\
         Output- Provided authorization to that API.
       }
@@ -305,9 +326,10 @@ The report has five chapters. Chapter 1 provides introduction about the project,
         Input- Select import file and its file format. \\
         Output- Data imported according to file format in schema.
       }
-      \item {\emph {Create Funnel :}   For analytics creating funnel that is json structure to algorithm for analysis on the data (constrained to data type supported by algorithm) \\
-        Input- Schema and algorithm. \\
-        Output- Endpoint which give result of analytics algorithm in chosen schema.  
+      \vfill
+      \item {\emph {Create Funnel :}  Selecting a sequence of algorithms for the desired analysis tasks and saving it for multiple use.\\
+      Input- Select the algorithms, the data inputs along with the specified parameters and the format of the result. \\
+      Output- Endpoint which give result of analytics algorithm in chosen schema.  
       }
       \item { \emph {Choose Labels :} Select features from specific schema to apply algorithm/funnel. }
       \item {\emph {Generate Graphs :}   Generate graph on the basis of insights generated from the analysis. \\
@@ -365,7 +387,7 @@ The report has five chapters. Chapter 1 provides introduction about the project,
       Tools and software needed for realisation of the system such as NodeJS, Python, C etc are easily available and can be integrated.
       }
       \item {\textbf{Operational :} 
-      Proposed system will be operationally very efficient it will guarantee to reduce total application development time by at least 30%+ which is a very great amount of time 
+      Proposed system will be operationally very efficient it will guarantee to reduce total application development time by at least 30{\%}+ which is a very great amount of time 
       }
     \end{enumerate}
 
@@ -400,17 +422,17 @@ The report has five chapters. Chapter 1 provides introduction about the project,
 
         \begin{figure}[h] \centering
           \includegraphics[width=8.5in , angle=90]{images/PPI-2.png}
-          \caption{ Activity Diagram - 1}  
+          \caption{ Activity Diagram - Social Login Integration}  
         \end{figure}
 
         \begin{figure}[h] \centering
           \includegraphics[width=8.5in , angle=90]{images/PPI-3.png}
-          \caption{ Activity Diagram - 2}  
+          \caption{ Activity Diagram - Generate Schema and CRUD APIs}  
         \end{figure}
 
         \begin{figure}[h] \centering
           \includegraphics[width=8.5in , angle=90]{images/PPI.png}
-          \caption{ Activity Diagram - 3}  
+          \caption{ Activity Diagram - Analysis APIs Generation}  
         \end{figure}
 
         \newpage
@@ -420,6 +442,7 @@ The report has five chapters. Chapter 1 provides introduction about the project,
         \end{figure}
 
     \chapter {Conclusion}
+        This chapter consists of the work carried out in phase I and the tasks to be carried out in phase II of the project.
     \section{Work carried out in phase 1}
     \begin{itemize}
       \item  Detailed study of Existing Systems
@@ -481,7 +504,7 @@ The report has five chapters. Chapter 1 provides introduction about the project,
     https://www.doc.ic.ac.uk/~nd/surprise{\_}96/journal/vol4/cs11/report.html    
     
     \bibitem{nano9}
-    What is Linear Regression.
+    \emph{What is Linear Regression.}
     Available at http://www.statisticssolutions.com/what-is-linear-regression/
     
 		

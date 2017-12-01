@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  1 DEC 2017 11:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2017.8.24)  1 DEC 2017 14:01
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -784,6 +784,80 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 (/usr/share/texlive/texmf-dist/tex/latex/sectsty/sectsty.sty
 Package: sectsty 2002/02/25 v2.0.2 Commands to change all sectional heading sty
 les
+)
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/02/04 v1.7-139 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen171
+\captionmargin@=\dimen172
+\captionwidth=\dimen173
+\caption@tempdima=\dimen174
+\caption@indent=\dimen175
+\caption@parindent=\dimen176
+\caption@hangindent=\dimen177
+)
+\c@ContinuedFloat=\count129
+)
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathptmx.sty
+Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ztmcm/m/n on input line 28.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/ztmcm/m/it on input line 29.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/ztmcm/m/n on input line 30.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/ztmcm/m/n on input line 31.
+\symbold=\mathgroup6
+\symitalic=\mathgroup7
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/ptm/bx/n on input line 34.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/ptm/m/it on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
+LaTeX Info: Redefining \hbar on input line 50.
 ) (./report.aux
 
 LaTeX Warning: Label `sec:theory' multiply defined.
@@ -791,30 +865,34 @@ LaTeX Warning: Label `sec:theory' multiply defined.
 )
 \openout1 = `report.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 42.
-LaTeX Font Info:    ... okay on input line 42.
- (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
+LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 47.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ptm.fd
+File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count129
-\scratchdimen=\dimen171
+\scratchcounter=\count130
+\scratchdimen=\dimen178
 \scratchbox=\box39
-\nofMPsegments=\count130
-\nofMParguments=\count131
+\nofMPsegments=\count131
+\nofMParguments=\count132
 \everyMPshowfont=\toks37
-\MPscratchCnt=\count132
-\MPscratchDim=\dimen172
-\MPnumerator=\count133
-\makeMPintoPDFobject=\count134
+\MPscratchCnt=\count133
+\MPscratchDim=\dimen179
+\MPnumerator=\count134
+\makeMPintoPDFobject=\count135
 \everyMPtoPDFconversion=\toks38
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -895,216 +973,254 @@ ABD: EveryShipout initializing macros
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-<images/logo.jpg, id=4, 200.75pt x 197.73875pt>
-File: images/logo.jpg Graphic file (type jpg)
- <use images/logo.jpg>
-Package pdftex.def Info: images/logo.jpg used on input line 53.
-(pdftex.def)             Requested size: 200.7495pt x 197.73827pt.
- [1
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 50.
+(./report.toc
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 2.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 3.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/logo.jpg>] [2] [1
-]
-(./report.toc [6
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1ztmcm.fd
+File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 3.
 
-])
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omlztmcm.fd
+File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 3.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsztmcm.fd
+File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
+)
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 3.
+
+
+(/usr/share/texlive/texmf-dist/tex/latex/psnfss/omxztmcm.fd
+File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
+)
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 3.
+ [7
+
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
 \tf@toc=\write4
 \openout4 = `report.toc'.
 
- [7] (./report.lof)
+ [8] (./report.lof)
 \tf@lof=\write5
 \openout5 = `report.lof'.
 
- [8
+ [9
 
-]
-Chapter 1.
-[1
+] (./report.lot)
+\tf@lot=\write6
+\openout6 = `report.lot'.
 
-]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 102.
-
- (/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 102.
- [2] [3] [4]
-Chapter 2.
-
-Underfull \hbox (badness 10000) in paragraph at lines 128--132
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 134--136
-
- []
-
-[5
-
-]
-Underfull \hbox (badness 10000) in paragraph at lines 139--144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 139--144
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--156
-
- []
-
-[6] [7] [8] [9]
-Chapter 3.
-
-Underfull \hbox (badness 10000) in paragraph at lines 243--251
-
- []
 
 [10
 
-] [11] [12] [13] [14] [15]
+]
+Chapter 1.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 58.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 65.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 65.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 65.
+[1
+
+] [2]
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 77.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/omsptm.fd
+File: omsptm.fd 
+)
+LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 77.
+ [3] [4]
+[5]
+Chapter 2.
+[6
+
+]
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 110.
+ [7]
+Underfull \hbox (badness 10000) in paragraph at lines 158--161
+
+ []
+
+[8] [9] [10] [11] [12]
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--268
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 269--272
+
+ []
+
+[13
+
+] [14]
+Overfull \hbox (2.49242pt too wide) in paragraph at lines 293--297
+[]\OT1/ptm/m/it/12 Authenticate End-point :\OT1/ptm/m/n/12 If user has se-lecte
+d for pri-vate ac-cess as per some id or database
+ []
+
+[15] [16] [17] [18]
 Chapter 4.
-<images/Deployment.png, id=82, 1053.9375pt x 387.4475pt>
+<images/Deployment.png, id=80, 1053.9375pt x 387.4475pt>
 File: images/Deployment.png Graphic file (type png)
 
 <use images/Deployment.png>
-Package pdftex.def Info: images/Deployment.png used on input line 377.
+Package pdftex.def Info: images/Deployment.png used on input line 399.
 (pdftex.def)             Requested size: 438.51411pt x 161.20746pt.
 
-<images/Architecture-Diagram.png, id=84, 2838.605pt x 1314.9125pt>
+<images/Architecture-Diagram.png, id=82, 2838.605pt x 1314.9125pt>
 File: images/Architecture-Diagram.png Graphic file (type png)
 
 <use images/Architecture-Diagram.png>
-Package pdftex.def Info: images/Architecture-Diagram.png used on input line 382
+Package pdftex.def Info: images/Architecture-Diagram.png used on input line 404
 .
 (pdftex.def)             Requested size: 650.39656pt x 361.33119pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/Hierarchical-Diagram.png, id=85, 2680.0125pt x 1033.8625pt>
+<images/Hierarchical-Diagram.png, id=83, 2680.0125pt x 1033.8625pt>
 File: images/Hierarchical-Diagram.png Graphic file (type png)
 
 <use images/Hierarchical-Diagram.png>
-Package pdftex.def Info: images/Hierarchical-Diagram.png used on input line 387
+Package pdftex.def Info: images/Hierarchical-Diagram.png used on input line 409
 .
 (pdftex.def)             Requested size: 650.41344pt x 361.35248pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/System-Flowchart-Diagram.png, id=86, 2449.15pt x 2479.2625pt>
+<images/System-Flowchart-Diagram.png, id=84, 2449.15pt x 2479.2625pt>
 File: images/System-Flowchart-Diagram.png Graphic file (type png)
 
 <use images/System-Flowchart-Diagram.png>
 Package pdftex.def Info: images/System-Flowchart-Diagram.png used on input line
- 392.
+ 414.
 (pdftex.def)             Requested size: 433.61539pt x 505.86879pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/usecase.png, id=87, 1035.87pt x 712.6625pt>
+<images/usecase.png, id=85, 1035.87pt x 712.6625pt>
 File: images/usecase.png Graphic file (type png)
  <use images/usecase.png>
-Package pdftex.def Info: images/usecase.png used on input line 397.
+Package pdftex.def Info: images/usecase.png used on input line 419.
 (pdftex.def)             Requested size: 614.295pt x 422.6421pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/PPI-2.png, id=88, 2790.425pt x 1033.8625pt>
+<images/PPI-2.png, id=86, 2790.425pt x 1033.8625pt>
 File: images/PPI-2.png Graphic file (type png)
  <use images/PPI-2.png>
-Package pdftex.def Info: images/PPI-2.png used on input line 402.
+Package pdftex.def Info: images/PPI-2.png used on input line 424.
 (pdftex.def)             Requested size: 614.295pt x 227.59244pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/PPI-3.png, id=89, 2449.15pt x 752.8125pt>
+<images/PPI-3.png, id=87, 2449.15pt x 752.8125pt>
 File: images/PPI-3.png Graphic file (type png)
  <use images/PPI-3.png>
-Package pdftex.def Info: images/PPI-3.png used on input line 407.
+Package pdftex.def Info: images/PPI-3.png used on input line 429.
 (pdftex.def)             Requested size: 614.295pt x 188.81146pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<images/PPI.png, id=90, 2830.575pt x 1124.2pt>
+<images/PPI.png, id=88, 2830.575pt x 1124.2pt>
 File: images/PPI.png Graphic file (type png)
  <use images/PPI.png>
-Package pdftex.def Info: images/PPI.png used on input line 412.
+Package pdftex.def Info: images/PPI.png used on input line 434.
 (pdftex.def)             Requested size: 614.295pt x 243.9626pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[16
+[19
 
  <./images/Deployment.png>]
-<images/ER.jpg, id=95, 1535.7375pt x 958.58125pt>
+<images/ER.jpg, id=93, 1535.7375pt x 958.58125pt>
 File: images/ER.jpg Graphic file (type jpg)
  <use images/ER.jpg>
-Package pdftex.def Info: images/ER.jpg used on input line 418.
+Package pdftex.def Info: images/ER.jpg used on input line 440.
 (pdftex.def)             Requested size: 614.295pt x 383.44034pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[17 <./images/Architecture-Diagram.png>] [18 <./images/Hierarchical-Diagram.png
->] [19 <./images/System-Flowchart-Diagram.png>] [20 <./images/usecase.png>]
-[21 <./images/PPI-2.png>] [22 <./images/PPI-3.png>] [23 <./images/PPI.png>]
-[24 <./images/ER.jpg>]
+[20 <./images/Architecture-Diagram.png>] [21 <./images/Hierarchical-Diagram.png
+>] [22 <./images/System-Flowchart-Diagram.png>] [23 <./images/usecase.png>]
+[24 <./images/PPI-2.png>] [25 <./images/PPI-3.png>] [26 <./images/PPI.png>]
+[27 <./images/ER.jpg>]
 Chapter 5.
-[25
+[28
 
 ]
-Underfull \hbox (badness 4479) in paragraph at lines 447--449
-[]\OT1/cmr/m/it/12 Overview Of Back-end as a Ser-vice (BaaS) White Pa-per\OT1/c
-mr/m/n/12 . Avail-able at
+Underfull \hbox (badness 10000) in paragraph at lines 470--472
+[]\OT1/ptm/m/it/12 Overview Of Back-end as a Ser-vice (BaaS) White Pa-per\OT1/p
+tm/m/n/12 . Avail-able at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 447--449
-\OT1/cmr/m/n/12 http://baas.apievangelist.com/2013/05/08/overview-of-backend-as
--a-service-
+Underfull \hbox (badness 10000) in paragraph at lines 470--472
+\OT1/ptm/m/n/12 http://baas.apievangelist.com/2013/05/08/overview-of-backend-as
+-a-service-baas-
  []
 
 
-Underfull \hbox (badness 5316) in paragraph at lines 467--470
-[]\OT1/cmr/m/n/12 Ryan Goodrich, \OT1/cmr/m/it/12 What is BaaS (Back-end as a S
-er-vice)\OT1/cmr/m/n/12 . Avail-able at
+Underfull \hbox (badness 2452) in paragraph at lines 480--482
+[]\OT1/ptm/m/n/12 Backend as a Ser-vice (BaaS) Mar-ket Global fore-cast for 202
+0, Avail-able at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 472--476
-[]\OT1/cmr/m/n/12 Nguyen, T, 2016, \OT1/cmr/m/it/12 Mo-bile Back-end as a Ser-v
+Underfull \hbox (badness 10000) in paragraph at lines 490--493
+[]\OT1/ptm/m/n/12 Ryan Goodrich, \OT1/ptm/m/it/12 What is BaaS (Back-end as a S
+er-vice)\OT1/ptm/m/n/12 . Avail-able at
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 495--499
+[]\OT1/ptm/m/n/12 Nguyen, T, 2016, \OT1/ptm/m/it/12 Mo-bile Back-end as a Ser-v
 ice: The Pros
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 472--476
-\OT1/cmr/m/it/12 and Cons of Parse Case com-pany: Su-per-App Oy\OT1/cmr/m/n/12 
+Underfull \hbox (badness 10000) in paragraph at lines 495--499
+\OT1/ptm/m/it/12 and Cons of Parse Case com-pany: Su-per-App Oy\OT1/ptm/m/n/12 
 . Avail-able at
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 478--482
-[]\OT1/cmr/m/n/12 C. Ster-giou and D. Siganos , 2017, \OT1/cmr/m/it/12 Neu-ral 
-Net-work\OT1/cmr/m/n/12 . Avail-able at
+Underfull \hbox (badness 10000) in paragraph at lines 501--505
+[]\OT1/ptm/m/n/12 C. Ster-giou and D. Siganos , 2017, \OT1/ptm/m/it/12 Neu-ral 
+Net-work\OT1/ptm/m/n/12 . Avail-able at
  []
 
-[26
+[29
 
 ] (./report.aux)
 
@@ -1112,26 +1228,22 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 13896 strings out of 493029
- 267082 string characters out of 6136234
- 321356 words of memory out of 5000000
- 17128 multiletter control sequences out of 15000+600000
- 12244 words of font info for 43 fonts, out of 8000000 for 9000
+ 15410 strings out of 493029
+ 292092 string characters out of 6136234
+ 343227 words of memory out of 5000000
+ 18592 multiletter control sequences out of 15000+600000
+ 41369 words of font info for 91 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 62i,8n,56p,888b,310s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbxti10.pfb></usr/sh
-are/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
-/amsfonts/cm/cmti12.pfb>
-Output written on report.pdf (32 pages, 1300378 bytes).
+ 62i,8n,92p,897b,445s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
+e/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texm
+f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/ty
+pe1/urw/times/utmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/u
+tmri8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/zapfding/uzdr.pfb>
+Output written on report.pdf (33 pages, 1225015 bytes).
 PDF statistics:
- 166 PDF objects out of 1000 (max. 8388607)
- 103 compressed objects within 2 object streams
+ 152 PDF objects out of 1000 (max. 8388607)
+ 94 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
